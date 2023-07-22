@@ -1,0 +1,192 @@
+/* 版心 */
+.w {
+    width: 980px;
+    margin: 0 auto;
+}
+/* 自定义a的hover类 */
+.a-hover:hover {
+    color: #91BB35 !important;
+    text-decoration: underline;
+}
+.nav a:hover {
+    text-decoration: none;
+}
+.footer-t dd a:hover {
+    text-decoration: underline;
+}
+
+
+.header {
+    height: 62px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.header .w {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+/* 不要直接给.logo设置背景图，应该给a设置 */
+.logo a {
+    display: block;
+    width: 179px;
+    height: 25px;
+    background: url(../images/logo.png) no-repeat;
+    /* 隐藏文字 */
+    font-size: 0;
+}
+
+.search {
+    display: flex;
+    /* font-size: 0; */
+}
+.search input {
+    width: 158px;
+    height: 31px;
+    background: url(../images/input.png) no-repeat;
+    color: #979797;
+    border: 0;
+    outline: 0;
+    padding-left: 8px;
+}
+.search a {
+    display: block;
+    width: 33px;
+    height: 31px;
+    background: url(../images/button.png) no-repeat;
+    border: 0;
+}
+
+.nav {
+    height: 55px;
+    background: url(../images/nav-bg.png);
+}
+.nav ul {
+    display: flex;
+}
+.nav li {
+    width: 130px;
+    height: 100%;
+    background: url(../images/nav-line.png) no-repeat right;
+    text-align: center;
+    line-height: 55px;
+}
+.nav li a {
+    color: #00004b;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.notice {
+    height: 29px;
+    background-color: #fbfbfb;
+    border-top: 1px solid #EFEFEF;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.notice .w {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    /* 必须有高度，才能生效 */
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 50px;
+}
+.product {
+    width: 312px;
+    height: 226px;
+    border: 1px solid #efefef;
+}
+.news {
+    width: 375px;
+    height: 226px;
+    border: 1px solid #efefef;
+}
+.net {
+    width: 269px;
+    height: 226px;
+    border: 1px solid #efefef;
+}
+.main-title h4{
+    color: #91BB35;
+    font-weight: 700;
+    height: 38px;
+    line-height: 38px;
+    background: url(../images/arrow.png) no-repeat left center;
+    margin-left: 6px;
+    padding-left: 22px;
+}
+.product .main-bd {
+    text-align: center;
+}
+.news .main-bd {
+    padding: 0 22px;
+}
+.news .main-bd li {
+    height: 28px;
+    line-height: 27px;
+    border-bottom: 1px dashed #DCDCDC;
+}
+.news .main-bd li a {
+    color: #666;
+}
+
+.news .main-bd li .red {
+    color: #f00;
+    font-weight: 700;
+}
+.net .main-bd {
+    padding: 0 22px;
+}
+.net .main-bd li {
+    height: 13px;
+    line-height: 13px;
+    border-left: 3px solid #98CB00;
+    padding-left: 5px;
+    margin-bottom: 8px;
+}
+.net .main-bd p {
+    margin-top: 40px;
+}
+
+.footer {
+    height: 306px;
+    background: #2d2d2d url(../images/footer-bg.png) repeat-x;
+}
+
+.footer-t {
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    height: 220px;
+}
+.footer-t dl {
+    /* 固定宽度拉开每个dl距离 */
+    width: 110px;
+}
+.footer-t dt {
+    color: #C7C7C7;
+    font-size: 14px;
+    font-weight: 700;
+    height: 35px;
+}
+.footer-t dd a {
+    color: #707070;
+    font-size: 12px;
+    height: 20px;
+}
+.footer-b {
+    color: #000;
+    border-top: 1px dashed #414141;
+    text-align: center;
+}
+.footer-b p {
+    line-height: 30px;
+}
